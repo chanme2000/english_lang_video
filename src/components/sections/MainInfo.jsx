@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ChevronRight } from "lucide-react"
+import heroImg from "@/assets/images/hero_learning_context.png"
 
 export default function MainInfo() {
   return (
@@ -18,7 +19,7 @@ export default function MainInfo() {
       <section className="w-full">
         <div className="relative w-full aspect-[21/7] md:aspect-[21/6] overflow-hidden">
           <img
-            src="/src/assets/images/hero_learning_context.png"
+            src={heroImg}
             alt="Learning Group"
             className="w-full h-full object-cover"
           />

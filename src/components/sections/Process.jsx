@@ -1,5 +1,6 @@
 import Section from "@/components/Section"
 import { Card, CardContent } from "@/components/ui/card"
+import teachersImg from "@/assets/images/teachers.png"
 
 export default function Process() {
   const processes = [
@@ -33,42 +34,42 @@ export default function Process() {
     {
       name: "Cody Fisher",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
     {
       name: "Bessie Cooper",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
     {
       name: "Arlene McCoy",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
     {
       name: "Jacob Jones",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
     {
       name: "Jenny Wilson",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
     {
       name: "Robert Fox",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
     {
       name: "Esther Howard",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
     {
       name: "Guy Hawkins",
       role: "The unseen of spending three years at Pixelgrade",
-      image: "/src/assets/images/teachers.png",
+      image: teachersImg,
     },
   ]
 
