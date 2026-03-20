@@ -1,0 +1,19 @@
+@import 'variables';
+
+// Global Styles and Overrides
+body {
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  overflow-x: hidden;
+}
+
+.section-padding {
+  padding: 4rem 1.5rem;
+  
+  @include tablet {
+    padding: 6rem 3rem;
+  }
+  
+  @include desktop {
+    padding: 8rem 4rem;
+  }
+}
